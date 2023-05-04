@@ -6,9 +6,3 @@
     ch1-pin = <22>; /* LED 1 */
     ch2-pin = <24>; /* LED 2 */
 };
-
-/ {
-	chosen {
-		 zmk,backlight = &backlight;
-	};
-};
